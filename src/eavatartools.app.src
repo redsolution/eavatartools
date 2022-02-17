@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author Ilya Kalashnikov <ilya.kalashnikov@redsolution.com>
+%%% @copyright (C) 2022, Redsolution OÜ
+%%% @doc
+%%%
+%%% @end
+%%% Created : 14 Feb. 2022
+%%%-------------------------------------------------------------------
+{application, eavatartools, [
+  {description, "Avatar tools"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {eavatartools, []}},
+  {env, []}
+]}.
